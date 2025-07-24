@@ -3,16 +3,6 @@ import { monoSpace } from "../font";
 import DevLearn from "@/public/devlearn.png"
 import Link from "next/link";
 
-const projectArray = [
-    {
-        title:"dev.learn",
-        description:"",
-        imageSrc:"",
-        linkSrc:"",
-        video:"",
-        githubSrc:"",
-    }
-]
 
 export default function Header(){
     return <div className={`flex flex-col gap-5 my-16 ${monoSpace.className}`}>

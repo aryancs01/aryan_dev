@@ -11,11 +11,11 @@ export default function ContactUs(){
                 <div>
                     --{" "}<Link className="hover:underline hover:text-blue-400" href="mailto:aryan1032saxena@gmail.com" target="_blank">aryan1032saxena@gmail.com</Link>
                 </div>
-                    //
+                    {"//"}
                     <div>
                     --{" "}<Link className="hover:underline hover:text-blue-400" href="https://x.com/aryandev_" target="_blank">twitter</Link>
                     </div>
-                    //
+                    {"//"}
                     <div>
                     --{" "}<Link className="hover:underline hover:text-blue-400" href="https://www.linkedin.com/in/aryan-saxena12/" target="_blank">Linkedin</Link>
                     </div>

@@ -5,14 +5,14 @@ import Link from "next/link";
 
 export default function Header(){
     return <div className={`w-full flex flex-col gap-5 mb-10 mt-10 ${monoSpace.className}`}>
-        <h3 className="text-2xl font-semibold text-center md:text-left">Aryan Saxena's space</h3>
+        <h3 className="text-2xl font-semibold text-center md:text-left">Aryan Saxena&apos;s space</h3>
         <div className="flex flex-col md:flex-row gap-5 w-full">
             <div className="flex flex-col gap-4 md:w-[30%] px-10 md:px-0">
                 <Image className="h-48 rounded-xl object-fill" src={Demo} alt="Demo" quality={100}/>
             </div>
             <div className="md:w-[70%]">
                 <div >
-                    <p>Hey i'm aryan, a fullstack dev mostly build with nextjs and the mern stack. final year CS undergrad. 
+                    <p>Hey i&apos;m aryan, a fullstack dev mostly build with nextjs and the mern stack. final year CS undergrad. 
                     <br/><br/>
                         currently into database internals, ui-design, and backend code.  
                     <br/><br/>
@@ -21,11 +21,11 @@ export default function Header(){
 
                 <div className="flex justify-center gap-5 md:gap-10 md:ml-4">
                     <Github/>
-                    //
+                    {"//"}
                     <Linkedin/>
-                    //
+                    {"//"}
                     <Twitter/>
-                    //
+                    {"//"}
                     <Leetcode/>
                 </div>
             </div>

@@ -1,6 +1,5 @@
 import ContactUs from "./_components/Contactus";
 import Header from "./_components/Header";
-import PlanetAnimation from "./_components/PlanetAnimation";
 import Projects from "./_components/Projects";
 import Separator from "./_components/Seperator";
 import TechStack from "./_components/TechStack";
