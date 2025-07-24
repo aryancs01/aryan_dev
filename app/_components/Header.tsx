@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Demo from "@/public/demo.jpg"
+import Saitama from "@/public/saitama.jpg"
 import { monoSpace } from "../font";
 import Link from "next/link";
 
@@ -8,7 +9,7 @@ export default function Header(){
         <h3 className="text-2xl font-semibold text-center md:text-left">Aryan Saxena&apos;s space</h3>
         <div className="flex flex-col md:flex-row gap-5 w-full">
             <div className="flex flex-col gap-4 md:w-[30%] px-10 md:px-0">
-                <Image className="h-48 rounded-xl object-fill" src={Demo} alt="Demo" quality={100}/>
+                <Image className="h-48 rounded-xl object-cover object-top opacity-90" src={Saitama} alt="Demo" quality={100}/>
             </div>
             <div className="md:w-[70%]">
                 <div >
