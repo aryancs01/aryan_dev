@@ -13,11 +13,9 @@ export default function WorkExperience(){
             </div>
             <div>
                 <ul>
-                   <BulletPoints text="Led the development of a full-fledged slot booking system using Next.js and Firebase, integrating Razorpay payments, email notifications, and real-time updates."/>
-                    <BulletPoints text="Enhanced and debugged Next.js and HTML UI components, implemented pagination, and optimized for SEO, improving performance and discoverability."/>
-                    <BulletPoints text="Dynamically developed websites, with a strong focus on  responsive UI using Next.js and Tailwind CSS."/>
-                    <BulletPoints text="Embedded a Remix application into Shopify Admin to create custom product collections, gaining hands-on experience with Shopify app development and metafields integration."/>
-                    <BulletPoints text="Integrated Prometheus, Grafana, and Loki for real-time server monitoring and system log analysis, improving system reliability and observability."/>
+                   <BulletPoints text="Built a complete slot booking system with real-time updates, Razorpay integration, and email notifications using Next.js and Firebase."/>
+                    <BulletPoints text="Created dynamic, responsive websites with a focus on clean UI, SEO, and performance using Next.js, Tailwind CSS, and HTML."/>
+                    <BulletPoints text="Worked with Shopify app development using Remix and integrated monitoring tools like Prometheus, Grafana, and Loki for better system reliability."/>
                 </ul>
             </div>
         </div>
