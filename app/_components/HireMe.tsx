@@ -46,7 +46,8 @@ export function HireMe() {
       </svg>
 
       <Link
-        href=""
+        href="https://drive.google.com/file/d/17wAburwE20TRIrg6UFEsSrpXPJjtxpDp/view?usp=drive_link"
+        target="_blank"
         onMouseEnter={() => setHovered("resume")}
         onMouseLeave={() => setHovered(null)}
         className="tracking-widest not-first:w-fit border-2 border-gray-100 p-2 rounded-lg hover:bg-[#222] hover:text-green-400 transition-all cursor-pointer"
