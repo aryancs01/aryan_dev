@@ -18,7 +18,7 @@ export function HireMe() {
       className={`flex gap-5 justify-center items-center text-md md:text-lg lg:text-xl ${pixelifySans.className}`}
     >
       <button
-        className="tracking-widest not-first:w-fit border-2 border-gray-100 p-2 rounded-lg hover:bg-[#222] hover:text-blue-400 transition-all cursor-pointer"
+        className="flex gap-x-4 items-center tracking-widest not-first:w-fit border-2 border-gray-100 p-2 rounded-lg hover:bg-[#222] hover:text-blue-400 transition-all cursor-pointer"
         onMouseEnter={() => setHovered("hire")}
         onMouseLeave={() => setHovered(null)}
         onClick={() => {
@@ -27,10 +27,8 @@ export function HireMe() {
         }}
       >
         Hire me
-      </button>
-
-      <svg
-        className={`size-8 text-gray-800 dark:text-white transition-transform duration-300 ${getRotation()}`}
+              <svg
+        className={`size-6 md:size-8 text-gray-800 dark:text-white transition-transform duration-300 ${getRotation()}`}
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -44,15 +42,8 @@ export function HireMe() {
           d="M5.35709 16V5.78571c0-.43393.34822-.78571.77777-.78571H18.5793c.4296 0 .7778.35178.7778.78571V16M5.35709 16h-1c-.55229 0-1 .4477-1 1v1c0 .5523.44771 1 1 1H20.3571c.5523 0 1-.4477 1-1v-1c0-.5523-.4477-1-1-1h-1M5.35709 16H19.3571M9.35709 8l2.62501 2.5L9.35709 13m4.00001 0h2"
         />
       </svg>
-
-      <Link
-        href=""
-        onMouseEnter={() => setHovered("resume")}
-        onMouseLeave={() => setHovered(null)}
-        className="tracking-widest not-first:w-fit border-2 border-gray-100 p-2 rounded-lg hover:bg-[#222] hover:text-green-400 transition-all cursor-pointer"
-      >
-        Resume
-      </Link>
+      </button>
+ 
     </div>
   );
 }

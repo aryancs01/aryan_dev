@@ -3,6 +3,20 @@ import { monoSpace } from "../font";
 export default function WorkExperience(){
     return <div className={`${monoSpace.className} flex flex-col gap-7 my-20`}>
         <h3 className="text-2xl font-semibold">Work Experience</h3>
+         <div className="md:ml-10">
+            <div className="flex flex-col  md:flex-row gap-2 md:items-center md:justify-between">
+                <h2 className="text-sm md:text-xl">Backend Intern</h2>
+                <p className="text-xs md:text-md">Fonix Technologies</p>
+            </div>
+            <div className="text-gray-400 md:ml-4 text-xs md:text-md">
+                <p>Currently</p>
+            </div>
+            <div>
+                <ul>
+                   <BulletPoints text="Exploring Node.js and Express.js ecosystem, understanding backend architecture and server-side logic."/>
+                </ul>
+            </div>
+        </div>
         <div className="md:ml-10">
             <div className="flex flex-col  md:flex-row gap-2 md:items-center md:justify-between">
                 <h2 className="text-sm md:text-xl">Software Developer Intern</h2>

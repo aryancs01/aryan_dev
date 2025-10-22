@@ -8,14 +8,14 @@ export default function Header(){
     return <div className={`w-full flex flex-col gap-5 mb-10 mt-10 ${monoSpace.className}`}>
         <h3 className="text-2xl font-semibold text-center md:text-left">Aryan Saxena&apos;s space</h3>
         <div className="flex flex-col md:flex-row gap-5 w-full">
-            <div className="flex flex-col gap-4 md:w-[30%] px-10 md:px-0">
+            <div className="flex flex-col gap-4 md:w-[20%] px-10 md:px-0">
                 <Image className="h-full w-full rounded-xl object-fit opacity-90" src={Aryan} alt="Demo" quality={100}/>
             </div>
             <div className="md:w-[70%]">
                 <div >
-                    <p>Hey i&apos;m aryan, a fullstack dev mostly build with nextjs and the mern stack. final year CS undergrad. 
+                    <p>Hey i&apos;m aryan, a fullstack dev mostly build with typescript and the express js &#40; sometimes nextjs/reactjs &#41;	|| final year CS undergrad. 
                     <br/><br/>
-                        currently into database internals, ui-design, and backend code.  
+                        currently into backend, devops, and database design.  
                     <br/><br/>
                     </p>
                 </div>
